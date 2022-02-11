@@ -1,0 +1,32 @@
+
+
+
+
+.gradiente{
+
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+    background-size: 300% 300%;
+    animation: cores 15s ease infinite;
+
+}
+
+@keyframes cores{
+
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
