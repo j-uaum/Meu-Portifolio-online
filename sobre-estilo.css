@@ -36,6 +36,22 @@
 
 }
 
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #45616c;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6f7567;
+    border-radius: 25px;
+}
+
 .topo{
     display: flex;
     flex-direction: row;
