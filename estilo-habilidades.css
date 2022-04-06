@@ -34,7 +34,10 @@
         background-position: 0% 50%;
     }
     
-    ::-webkit-scrollbar {
+   
+}
+
+::-webkit-scrollbar {
     width: 10px;
 }
 
@@ -48,7 +51,6 @@
     border-radius: 25px;
 }
 
-}
 .topo{
     display: flex;
     flex-direction: row;
