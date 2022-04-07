@@ -37,7 +37,7 @@
 }
 
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     width: 10px;
 }
 
@@ -51,7 +51,7 @@
     background-size: 100% 100%;
     animation: cores 15s ease infinite;
     border-radius: 25px;
-}
+}*/
    
 
 
