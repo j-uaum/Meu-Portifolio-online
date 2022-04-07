@@ -20,7 +20,7 @@
 
 }
 
-@keyframes cores{
+@keyframes cores {
 
     0%{
         background-position: 0% 50%;
@@ -35,26 +35,6 @@
     }
 
 }
-
-
-/*::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track{
-    background: #45616c;
-    border-radius: 30px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
-    background-size: 100% 100%;
-    animation: cores 15s ease infinite;
-    border-radius: 25px;
-}*/
-   
-
-
 
 
 .topo{
