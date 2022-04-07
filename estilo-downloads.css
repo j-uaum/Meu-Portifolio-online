@@ -15,7 +15,7 @@
     height: 100vh;
     width: 100vw;
     background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
-    background-size: 300% 300%;
+    background-size: cover;
     animation: cores 15s ease infinite;
 
 }
@@ -38,19 +38,22 @@
 
 
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
     width: 10px;
-}
+}*/
 
 ::-webkit-scrollbar-track{
-    background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+    background: linear-gradient(45deg, #084177);
     background-size: 100% 100%;
     animation: cores 15s ease infinite;
     border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #6f7567;
+    background:  background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
+    background-size: 100% 100%;
+    animation: cores 15s ease infinite;
+    
     border-radius: 25px;
 }
 
