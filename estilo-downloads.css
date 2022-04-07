@@ -37,25 +37,22 @@
 }
 
 
-
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 ::-webkit-scrollbar-track{
-    background: #cd8d7b;
-    background-size: 100% 100%;
-    animation: cores 15s ease infinite;
+    background: #45616c;
     border-radius: 30px;
 }
 
 ::-webkit-scrollbar-thumb {
     background: linear-gradient(45deg, #084177, #687466, #cd8d7b, #fbc490);
-    background-size: cover;
+    background-size: 100% 100%;
     animation: cores 15s ease infinite;
-    
     border-radius: 25px;
 }
+   
 
 .topo{
     display: flex;
@@ -100,14 +97,14 @@
  }
 
  .escrito-princ-titulo{
-    font-family: 'Righteous', cursive;
+    font-family: font-family: 'Righteous', cursive;
     color:antiquewhite;
     font-weight: 400;
     font-size: 64px;
  }
 
  .escrito-princ-subtitulo{
-    font-family: 'Sarala', sans-serif;
+    font-family: font-family: 'Sarala', sans-serif;
     color: #ECD6C4;
     font-weight: 400;
     font-size: 24px;
@@ -120,7 +117,7 @@
      border: none;
      box-shadow: 4px 5px 4px black ;
      border-radius: 20px;
-    font-family: 'Sarala', sans-serif;
+    font-family: font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: black;
@@ -149,13 +146,13 @@
 .conteudo-baixo-titulo{
     border-top: 0.4px solid antiquewhite ;
     padding-top: 48px;
-    font-family: 'Righteous', cursive;
-    color:antiquewhite;
+    font-family: font-family: 'Righteous', cursive;
+    color: antiquewhite;
     font-weight: 400;
     font-size: 24px;
 }
 .conteudo-baixo-paragrafo{
-    font-family:'Sarala', sans-serif;
+    font-family: font-family:'Sarala', sans-serif;
     color: #ECD6C4;
     font-weight: 400;
     font-size: 16px;
@@ -182,7 +179,7 @@
     border: none;
     
     border-radius: px;
-   font-family: 'Sarala', sans-serif;
+   font-family: font-family: 'Sarala', sans-serif;
    font-weight: 400;
    font-size: 16px;
    color: black;
