@@ -38,12 +38,12 @@ body{
 
 
 
-/*::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 10px;
 }
 
 ::-webkit-scrollbar-track{
-    background: linear-gradient(45deg, #084177);
+    background: #cd8d7b;
     background-size: 100% 100%;
     animation: cores 15s ease infinite;
     border-radius: 30px;
@@ -55,7 +55,7 @@ body{
     animation: cores 15s ease infinite;
     
     border-radius: 25px;
-}*/
+}
 
 .topo{
     display: flex;
